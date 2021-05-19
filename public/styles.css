@@ -7,3 +7,25 @@
     --rose-madder: #df2935ff;
     --russian-green: #519872ff;
 }
+
+a {
+    color: var(--carolina-blue);
+}
+
+a:hover {
+    color: var(--indigo-dye);
+}
+
+a:visited {
+    color: var(--russian-green);
+}
+
+/* common stuff */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
