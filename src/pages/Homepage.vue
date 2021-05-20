@@ -178,14 +178,36 @@
                 <div class="col-12 col-md-6 p-3">
                     <div class="card">
                         <div class="card-body">
+                            <h5 class="card-title">Sanford Lab</h5>
+                            <h6 class="card-subtitle mb-1">University of Michigan, Department of Chemistry</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">September 2019 - present</h6>
+                            <p><span class="bold">Advisor:</span> Prof. Melanie Sanford</p>
+                            <hr/>
+                            <p class="small">Currently, I am working with <a
+                                    href="https://sites.lsa.umich.edu/msanford-lab/" target="_blank"
+                                    rel="noopener noreferrer">Prof.
+                                Melanie
+                                Sanford</a>,
+                                continuing my
+                                research on C–H activation. Alongside working in the lab to develop new
+                                functionalization reactions, I have been working on modeling the C–H activation
+                                process computationally.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-3">
+                    <div class="card">
+                        <div class="card-body">
                             <h5 class="card-title">Young Lab</h5>
                             <h6 class="card-subtitle mb-1">The University of Toledo, Department of Chemistry and
                                 Biochemistry</h6>
                             <h6 class="card-subtitle mb-2 text-muted">March 2017 - August 2019</h6>
                             <p><span class="bold">Advisor:</span> Prof. Michael Young</p>
                             <hr/>
-                            <p class="small">I worked under Prof. Michael Young at The University of Toledo,
-                               developing new C–H activation methodology for amine substrates. My research focused
+                            <p class="small">I worked under <a href="https://www.younggroupchem.com/" target="_blank"
+                                                               rel="noopener noreferrer">Prof. Michael
+                                Young</a> at The University of Toledo,
+                                developing new C–H activation methodology for amine substrates. My research focused
                                 on expanding the substrate scope of C–H functionalization reactions by using carbon
                                 dioxide to help promote the key C–H activation step.</p>
                             <h6 class="small">Publications:</h6>
@@ -210,21 +232,6 @@
                                         class="italic">96</span>, 4, 781-785.
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 p-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Sanford Lab</h5>
-                            <h6 class="card-subtitle mb-1">University of Michigan, Department of Chemistry</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">September 2019 - present</h6>
-                            <p><span class="bold">Advisor:</span> Prof. Melanie Sanford</p>
-                            <hr/>
-                            <p class="small">Currently, I am working with Prof. Melanie Sanford, continuing my
-                                research on C–H activation. Alongside working in the lab to develop new
-                                functionalization reactions, I have been working on modeling the C–H activation
-                                process computationally.</p>
                         </div>
                     </div>
                 </div>
