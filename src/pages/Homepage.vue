@@ -30,14 +30,14 @@
 
         <div class="section container" style="margin-top: 100vh;">
             <a class="anchor" id="section-about-me"/>
-            <h2><i class="bi-person-lines-fill"/> about me</h2>
-            <p>Hi, I'm Daniel. I like to write code and do chemistry. Sometimes, I'll get to do both! To hear more about
+            <h2><i class="bi-person-lines-fill"/> About Me</h2>
+            <p>Hi, I'm Daniel. I like to write code and do chemistry. Sometimes, I get to do both! To hear more about
                 my coding projects, head to the <a href="#section-projects">projects section</a>!</p>
         </div>
 
         <div class="section container">
             <a class="anchor" id="section-edu"/>
-            <h2><i class="bi-lightbulb"/> education</h2>
+            <h2><i class="bi-lightbulb"/> Education</h2>
             <div class="container d-flex flex-row flex-wrap p-3">
                 <div class="card m-0 edu-card">
                     <div class="card-body">
@@ -54,7 +54,7 @@
 
         <div class="section container">
             <a class="anchor" id="section-coursework"/>
-            <h2><i class="bi-book"/> coursework</h2>
+            <h2><i class="bi-book"/> Coursework</h2>
             <div class="container row">
                 <div class="col-12 col-md-6 col-xl-4 flex-grow-1">
                     <CourseCard course-name="EECS203" course-title="Discrete Mathematics"
@@ -94,13 +94,13 @@
 
         <div class="section container">
             <a class="anchor" id="section-projects"/>
-            <h2><i class="bi-code-slash"/> projects</h2>
+            <h2><i class="bi-code-slash"/> Projects</h2>
             <ProjectInformation/>
         </div>
 
         <div class="section container">
             <a class="anchor" id="section-work-exp"/>
-            <h2><i class="bi-briefcase"/> work experience</h2>
+            <h2><i class="bi-briefcase"/> Work Experience</h2>
             <div class="container-fluid row g-3">
                 <div class="col-12 col-lg-6 col-xl-4 p-3">
                     <div class="card">
@@ -170,12 +170,12 @@
 
         <div class="section container">
             <a class="anchor" id="section-research"/>
-            <h2><i class="bi-clipboard-data"/> research experience</h2>
+            <h2><i class="bi-clipboard-data"/> Research Experience</h2>
         </div>
 
         <div class="section container">
             <a class="anchor" id="section-contact"/>
-            <h2><i class="bi-chat-left-dots"/> contact me</h2>
+            <h2><i class="bi-chat-left-dots"/> Contact Me!</h2>
             <div class="container">
                 <ul style="list-style: none; padding-left: 0;">
                     <li><a href="mailto:danlliu@umich.edu" class="link-clean" target="_blank" rel="noopener noreferrer"><i class="bi-envelope"/> danlliu@umich.edu</a></li>
@@ -186,7 +186,7 @@
 
         <div class="section container">
             <a class="anchor" id="section-resume"/>
-            <h2><i class="bi-file-text"/> résumé</h2>
+            <h2><i class="bi-file-text"/> Résumé</h2>
             <p>Click below to download my résumé!</p>
             <a href="resume.pdf" class="bi-download mt-3 link-clean link-black" download>
                 condensed résumé (159 KB)
