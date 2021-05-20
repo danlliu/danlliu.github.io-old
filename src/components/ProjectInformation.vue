@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid row py-3" id="pi-outer">
-        <div class="col-xl-4 mb-3 list-group" id="pi-list" style="overflow-y: auto">
+        <div class="col-xl-5 mb-3 list-group" id="pi-list" style="overflow-y: auto">
             <a v-for="(info, idx) of projectInformation" :key="idx" @click="click(idx)"
                class="list-group-item list-group-item-action" :class="currentIdx === idx && 'active'"
                :aria-current="currentIdx === idx ? 'true' : 'false'">
@@ -8,7 +8,7 @@
             </a>
         </div>
         <hr id="pi-line"/>
-        <div class="col-xl-8 mb-3" style="overflow-y: auto" id="pi-info">
+        <div class="col-xl-7 mb-3" style="overflow-y: auto" id="pi-info">
             <!-- project info goes here -->
             <div class="p-3" v-if="currentIdx !== -1"
                  v-html="`<h3>${projectInformation[currentIdx].name}</h3>` + projectInformation[currentIdx].html"/>
@@ -75,7 +75,7 @@
                          <h4>Image Gallery:</h4>
                          <div class="container mb-3">
                             <div>
-                                <img height="257.4px" width="532px" src="img/chatroom1.png" aria-describedby="chatroom1-caption">
+                                <img class="img-fluid" src="img/chatroom1.png" aria-describedby="chatroom1-caption">
                             </div>
                             <small id="chatroom1-caption">The main interface of chatroom.</small>
                          </div>`
@@ -87,19 +87,19 @@
                          <h4>Image Gallery:</h4>
                          <div class="container mb-3">
                             <div>
-                                <img height="418px" width="534px" src="img/turret1.png" aria-describedby="turret1-caption">
+                                <img class="img-fluid" src="img/turret1.png" aria-describedby="turret1-caption">
                             </div>
                             <small id="turret1-caption">A sniper turret shooting a bullet at the player.</small>
                          </div>
                          <div class="container mb-3">
                             <div>
-                                <img height="418px" width="534px" src="img/turret2.png" aria-describedby="turret2-caption">
+                                <img class="img-fluid" src="img/turret2.png" aria-describedby="turret2-caption">
                             </div>
                             <small id="turret2-caption">A basic turret shooting at the player, who can hide behind the barriers for cover.</small>
                          </div>
                          <div class="container mb-3">
                             <div>
-                                <img height="418px" width="534px" src="img/turret3.png" aria-describedby="turret3-caption">
+                                <img class="img-fluid" src="img/turret3.png" aria-describedby="turret3-caption">
                             </div>
                             <small id="turret3-caption">The upgrade screen of Turret Wars, allowing the player to make their spaceship better.</small>
                          </div>`
@@ -125,7 +125,7 @@
 <style scoped>
 
     #pi-outer {
-        height: 75vh;
+        height: 85vh;
     }
 
     #pi-list {
