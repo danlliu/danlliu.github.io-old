@@ -5,9 +5,11 @@
             <h6 class="card-subtitle mb-2">{{courseTitle}}</h6>
             <hr/>
             <div class="collapse" ref="info" v-html="description+`<hr/>`" style="font-size: smaller"/>
-            <small class="mt-5 text-muted d-block" @click="toggle()">
-                {{shown ? "show less" : "more information..."}}
-            </small>
+            <a @click="toggle()" :aria-label="shown ? 'hide details' : 'show more information'">
+                <small class="mt-5 text-muted d-block" >
+                    {{shown ? "show less" : "more information..."}}
+                </small>
+            </a>
         </div>
     </div>
 </template>

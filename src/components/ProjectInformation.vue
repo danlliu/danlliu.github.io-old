@@ -103,6 +103,12 @@
                             </div>
                             <small id="turret3-caption">The upgrade screen of Turret Wars, allowing the player to make their spaceship better.</small>
                          </div>`
+                    },
+                    {
+                        name: "linktracker",
+                        html:
+                        `<p>During the pandemic, many of us use virtual conferencing software such as Zoom or Google Meet to collaborate with others. However, it can be tough to keep track of the myriad links used to join different meetings. That's why I developed linktracker, an app that helps you keep track of meeting links in your browser. Using the browser's storage, linktracker is able to remember when your meetings take place and the links associated with them, and gives you the option to filter events in different ways. linktracker also includes some convenience features such as editing events, and dark mode.</p>
+                        <p>If you'd like to try out linktracker for yourself, you can find it <a href="https://danlliu.github.io/linktracker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
                     }
                 ]
             }

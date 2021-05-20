@@ -1,5 +1,8 @@
 <template>
     <div id="app">
+        <i id="scroll-down" class="bi-chevron-down" style="position: fixed; bottom: 32px; left: calc(50% - 16px);
+        font-size: 2rem; transition: bottom 0.25s ease, opacity 0.50s ease;
+        color: white; opacity: 0"/>
         <div class="container" style="position: fixed; top: 16px; z-index: 2048">
             <h1 class="font-monospace" id="helloworld" style="font-size: 112px; color: #FFF">hello
                 world</h1>
@@ -171,6 +174,61 @@
         <div class="section container">
             <a class="anchor" id="section-research"/>
             <h2><i class="bi-clipboard-data"/> Research Experience</h2>
+            <div class="container-fluid row g-3">
+                <div class="col-12 col-md-6 p-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Young Lab</h5>
+                            <h6 class="card-subtitle mb-1">The University of Toledo, Department of Chemistry and
+                                Biochemistry</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">March 2017 - August 2019</h6>
+                            <p><span class="bold">Advisor:</span> Prof. Michael Young</p>
+                            <hr/>
+                            <p class="small">I worked under Prof. Michael Young at The University of Toledo,
+                               developing new C–H activation methodology for amine substrates. My research focused
+                                on expanding the substrate scope of C–H functionalization reactions by using carbon
+                                dioxide to help promote the key C–H activation step.</p>
+                            <h6 class="small">Publications:</h6>
+                            <ul class="small">
+                                <li>Kapoor, M.; <span class="bold" style="text-decoration: underline">Liu, D.</span>; Young,
+                                    M. C. "Carbon Dioxide Mediated C(sp3)–H Arylation of Amine Substrates." <span
+                                            class="italic">J. Am.
+                                        Chem. Soc.</span> <span class="bold">2018</span>,
+                                    <span class="italic">140</span>, 6818-6822.</li>
+                                <li>
+                                    Kapoor, M.; Chand-Thakuri, P.; Maxwell, J. M.;
+                                    <span class="bold" style="text-decoration: underline">Liu, D.</span>;
+                                    Zhou, H.; Young, M. C. “Carbon Dioxide-Driven Palladium-Catalyzed C–H Activation
+                                    of Amines: A Unified Approach for the Arylation of Aliphatic and Aromatic Primary
+                                    and Secondary Amines.” <span class="italic">Synlett</span> <span
+                                        class="bold">2019</span>, <span class="italic">30</span>, 519-524.
+                                </li>
+                                <li>
+                                    Young, M. C.; Djernes, K. E.; Payton, J. L.; <span class="bold" style="text-decoration: underline">Liu, D.</span>;
+                                    Hooley, R. J. “Resorcin[4]arenes: A Simple Scaffold to Study Supramolecular Self-Assembly and Host:Guest Interactions for the Undergraduate Curriculum.”
+                                    <span class="italic">J. Chem. Ed.</span> <span class="bold">2019</span>, <span
+                                        class="italic">96</span>, 4, 781-785.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sanford Lab</h5>
+                            <h6 class="card-subtitle mb-1">University of Michigan, Department of Chemistry</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">September 2019 - present</h6>
+                            <p><span class="bold">Advisor:</span> Prof. Melanie Sanford</p>
+                            <hr/>
+                            <p class="small">Currently, I am working with Prof. Melanie Sanford, continuing my
+                                research on C–H activation. Alongside working in the lab to develop new
+                                functionalization reactions, I have been working on modeling the C–H activation
+                                process computationally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="section container">
@@ -211,8 +269,31 @@
         },
         mounted: function() {
 
+            let beginHelp = () => {
+                document.getElementById(`scroll-down`).style.opacity = 1.0
+                this.helperInterval = setInterval(() => {
+                    document.getElementById('scroll-down').style.bottom = (this.cycle === 1 || this.cycle === 3 ?
+                        '24px' : '32px');
+                    this.cycle++;
+                    this.cycle %= 10;
+                }, 250);
+
+            };
+
             let scrollHandler = () => {
+
+                if (this.helperInterval == null) {
+                    this.helperInterval = setTimeout(beginHelp, 500);
+                }
+
                 let scrollAmount = window.scrollY;
+
+                if (scrollAmount > 64) {
+                    clearInterval(this.helperLightInterval);
+                    document.getElementById(`scroll-down`).style.bottom = '32px';
+                    document.getElementById(`scroll-down`).style.opacity = '0';
+                }
+
                 console.log(`scrollAmount ${scrollAmount}`);
                 // hello world label: 0 through 288
                 if (scrollAmount <= 288) {
@@ -258,6 +339,9 @@
         },
         data: function() {
             return {
+
+                helperInterval: null,
+                cycle: 0,
 
                 descriptions: {
                     'eecs203':
