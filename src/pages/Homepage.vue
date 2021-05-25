@@ -253,7 +253,7 @@
             <a class="anchor" id="section-resume"/>
             <h2><i class="bi-file-text"/> Résumé</h2>
             <p>Click below to download my résumé!</p>
-            <a href="daniel-liuresume-cs.pdf" class="bi-download mt-3 link-clean link-black" download>
+            <a href="daniel-liu-resume-cs.pdf" class="bi-download mt-3 link-clean link-black" download>
                 condensed résumé (159 KB)
             </a>
             <a href="daniel-liu-resume.pdf" class="bi-download mt-3 link-clean link-black" download>
