@@ -45,9 +45,12 @@
                 <div class="card m-0 edu-card">
                     <div class="card-body">
                         <h5 class="card-title">University of Michigan</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">College of Literature, Science, and the Arts +
-                            College of Engineering</h6>
-                        <h6 class="card-subtitle mb-2 text-muted">B.S.Chem + B.S.E. Computer Science</h6>
+
+                        <h6 class="card-subtitle mb-2 text-muted">B.S.E. in Computer Science; College of
+                            Engineering</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">B.B.A.; Ross School of Business</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">B.S.Chem; College of Literature, Science, and the
+                            Arts</h6>
                         <hr/>
                         Fall 2019 - present
                     </div>
@@ -176,21 +179,31 @@
             <h2><i class="bi-clipboard-data"/> Research Experience</h2>
             <div class="container-fluid row g-3">
                 <div class="col-12 col-md-6 p-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Kapritsos Research Group</h5>
+                            <h6 class="card-subtitle mb-1">University of Michigan, Department of Electrical
+                                Engineering and Computer Science</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">May 2021 - present</h6>
+                            <p><span class="bold">Advisor:</span> <a
+                                    href="https://web.eecs.umich.edu/~manosk/" target="_blank"
+                                    rel="noopener noreferrer">Prof. Manos Kapritsos</a></p>
+                            <hr/>
+                            <p class="small">I am working with Prof. Manos Kapritsos on improving the usability of Dafny. Dafny is a programming language designed for formal verification: proving that code is guaranteed to behave correctly for all inputs. Specifically, I am working on ways to help Dafny developers navigate matching loops, a common pitfall where the proof engine gets stuck in an ever-growing loop of facts. By identifying these loops early, we can save developers from wasting time running their code, just to see a timeout message.</p>
+                        </div>
+                    </div>
+
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Sanford Lab</h5>
                             <h6 class="card-subtitle mb-1">University of Michigan, Department of Chemistry</h6>
                             <h6 class="card-subtitle mb-2 text-muted">September 2019 - present</h6>
-                            <p><span class="bold">Advisor:</span> Prof. Melanie Sanford</p>
-                            <hr/>
-                            <p class="small">Currently, I am working with <a
+                            <p><span class="bold">Advisor:</span> <a
                                     href="https://sites.lsa.umich.edu/msanford-lab/" target="_blank"
-                                    rel="noopener noreferrer">Prof.
-                                Melanie
-                                Sanford</a>,
-                                continuing my
-                                research on C–H activation. Alongside working in the lab to develop new
-                                functionalization reactions, I have been working on modeling the C–H activation
+                                    rel="noopener noreferrer">Prof. Melanie Sanford</a></p>
+                            <hr/>
+                            <p class="small">Currently, I am working with Prof. Melanie Sanford, continuing my research on C–H activation.
+                                Alongside working in the lab to develop new functionalization reactions, I have been working on modeling the C–H activation
                                 process computationally.</p>
                         </div>
                     </div>
