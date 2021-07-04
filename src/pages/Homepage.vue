@@ -46,13 +46,14 @@
                     <div class="card-body">
                         <h5 class="card-title">University of Michigan</h5>
 
-                        <h6 class="card-subtitle mb-2 text-muted">B.S.E. in Computer Science; College of
-                            Engineering</h6>
-                        <h6 class="card-subtitle mb-2 text-muted">B.B.A.; Ross School of Business</h6>
-                        <h6 class="card-subtitle mb-2 text-muted">B.S.Chem; College of Literature, Science, and the
-                            Arts</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"><b>B.S.E. in Computer Science</b>;
+                            College of Engineering</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"><b>B.B.A.</b>; Ross School of Business</h6>
+                        <h6 class="card-subtitle mb-2 text-muted"><b>B.S.Chem</b>; College of Literature,
+                            Science, and the Arts</h6>
                         <hr/>
-                        Fall 2019 - present
+                        <p>Fall 2019 - present</p>
+                        <p>GPA: <b>3.9 / 4.0</b></p>
                     </div>
                 </div>
             </div>
@@ -215,11 +216,12 @@
                             <h6 class="card-subtitle mb-1">The University of Toledo, Department of Chemistry and
                                 Biochemistry</h6>
                             <h6 class="card-subtitle mb-2 text-muted">March 2017 - August 2019</h6>
-                            <p><span class="bold">Advisor:</span> Prof. Michael Young</p>
+                            <p><span class="bold">Advisor:</span> <a href="https://www.younggroupchem.com/" target="_blank"
+                                                                     rel="noopener noreferrer">Prof. Michael
+                                Young</a></p>
                             <hr/>
-                            <p class="small">I worked under <a href="https://www.younggroupchem.com/" target="_blank"
-                                                               rel="noopener noreferrer">Prof. Michael
-                                Young</a> at The University of Toledo,
+                            <p class="small">I worked under Prof. Michael
+                                Young at The University of Toledo,
                                 developing new C–H activation methodology for amine substrates. My research focused
                                 on expanding the substrate scope of C–H functionalization reactions by using carbon
                                 dioxide to help promote the key C–H activation step.</p>
@@ -258,6 +260,8 @@
                 <ul style="list-style: none; padding-left: 0;">
                     <li><a href="mailto:danlliu@umich.edu" class="link-clean" target="_blank" rel="noopener noreferrer"><i class="bi-envelope"/> danlliu@umich.edu</a></li>
                     <li><a href="https://github.com/danlliu" class="link-clean" target="_blank" rel="noopener noreferrer"><i class="bi-github"/> github.com/danlliu</a></li>
+                    <li><a href="https://www.linkedin.com/in/daniel-liu-455b84205/" class="link-clean"
+                           target="_blank" rel="noopener noreferrer"><i class="bi-linkedin"/> my LinkedIn</a></li>
                 </ul>
             </div>
         </div>
@@ -267,10 +271,10 @@
             <h2><i class="bi-file-text"/> Résumé</h2>
             <p>Click below to download my résumé!</p>
             <a href="daniel-liu-resume-cs.pdf" class="bi-download mt-3 link-clean link-black" download>
-                computer science résumé (197 KB)
+                computer science résumé (159 KB)
             </a>
             <a href="daniel-liu-resume-condensed.pdf" class="bi-download mt-3 link-clean link-black" download>
-                condensed résumé (155 KB)
+                condensed résumé (151 KB)
             </a>
             <a href="daniel-liu-resume.pdf" class="bi-download mt-3 link-clean link-black" download>
                 full résumé (160 KB)
