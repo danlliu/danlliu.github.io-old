@@ -47,7 +47,7 @@
                         <h5 class="card-title">University of Michigan</h5>
 
                         <h6 class="card-subtitle mb-2 text-muted"><b>B.S.E. in Computer Science</b>;
-                            College of Engineering</h6>
+                            College of Literature, Science, and the Arts</h6>
                         <h6 class="card-subtitle mb-2 text-muted"><b>B.B.A.</b>; Ross School of Business</h6>
                         <h6 class="card-subtitle mb-2 text-muted"><b>B.S.Chem</b>; College of Literature,
                             Science, and the Arts</h6>
