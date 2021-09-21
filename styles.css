@@ -1,0 +1,31 @@
+:root {
+    --cameo-pink: #efb9cbff;
+    --beige: #eaefd3ff;
+    --indigo-dye: #1b4965ff;
+    --carolina-blue: #5fa8d3ff;
+    --columbia-blue: #afd4e9ff;
+    --rose-madder: #df2935ff;
+    --russian-green: #519872ff;
+}
+
+a {
+    color: var(--carolina-blue);
+}
+
+a:hover {
+    color: var(--indigo-dye);
+}
+
+a:visited {
+    color: var(--russian-green);
+}
+
+/* common stuff */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
